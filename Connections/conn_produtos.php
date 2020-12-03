@@ -1,13 +1,13 @@
 <?php
     // DEFININDO VARIÁVEIS PARA CONEXÃO
-    $hotsname_conn = "localhost";
+    $hostname_conn = "localhost";
     $database_conn = "iwane047_ti09";
     $username_conn = "iwane047_ti09";
     $password_conn = "senacti09";
     $charset_conn = "utf8";
 
     // DEFININDO PARÂMETROS DA CONEXÃO
-    $conn_produtos = new mysqli($hotsname_conn, $username_conn, $password_conn, $database_conn);
+    $conn_produtos = new mysqli($hostname_conn, $username_conn, $password_conn, $database_conn);
 
 
     // DEFININDO O CONJUNTO DE CARACTERES DA CONEXÃO
